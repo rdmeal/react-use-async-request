@@ -1,0 +1,26 @@
+{
+  "name": "react-use-async-request",
+  "version": "0.0.1",
+  "author": "Richard Meal",
+  "license": "MIT",
+  "description": "React hooks for making asynchronous requests",
+  "keywords": [
+    "react",
+    "async",
+    "react-hook",
+    "typescript"
+  ],
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": "./dist/react-use-async-request.modern.js",
+  "main": "./dist/react-use-async-request.cjs",
+  "module": "./dist/react-use-async-request.module.js",
+  "unpkg": "./dist/react-use-async-request.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  }
+}
