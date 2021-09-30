@@ -23,6 +23,7 @@
   "module": "./dist/react-use-async-request.module.js",
   "unpkg": "./dist/react-use-async-request.umd.js",
   "scripts": {
+    "prepare": "husky install",
     "build": "microbundle",
     "dev": "microbundle watch",
     "format": "npx prettier --write .",
@@ -40,6 +41,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
     "microbundle": "^0.13.3",
     "prettier": "2.4.1"
   }
